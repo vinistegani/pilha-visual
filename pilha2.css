@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+#conteudo {
+    margin-top: 20px;
+}
+
+.tabela {
+    color: white;
+    background-color: #000;
+    width: 100%;
+}
+
+.tabela td {
+    background-color: green;
+    text-align: center;
+}
+
+.graph {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.bar {
+    background-color: green;
+    width: 30px;
+    color: white;
+    text-align: center;
+    margin: 0 5px;
+}
